@@ -1,0 +1,556 @@
+/* Personalização da Página Principal */
+
+.botaompindex{
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Personalizaçao dos Mapas */
+
+/* Mapa Principal */
+.titulomapa {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: start;
+  margin-bottom: 30px;
+
+}
+
+.titulomapa::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 5000px;
+  height: 80px;
+  background-color: #c2bda5;
+  z-index: -1;
+}
+
+.textomapa {
+  font-size: large;
+  font-weight: times;
+  position: absolute;
+  text-align: center;
+  margin-bottom: 30px;
+  top: 90px;
+
+}
+
+.textomapa::before {
+  content: "O Mapa abaixo representa o Senac de Ribeirão Preto e, ao clicar nos títulos dos lugares, pode ser que leve a um outro mapa, no caso da Biblioteca e do Primeiro Andar, ou aparecerá um cronograma mostrando os horários de apresentação.";
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  width: 1300px;
+  height: 50px;
+  background-color: #31bfd8;
+  z-index: -1;
+
+}
+
+.mapaprincipal {
+  top: 200px;
+  position: absolute;
+  width: 180px;
+  height: 100px;
+  left: 50px;
+  z-index: -1;
+}
+
+.botaobiblioteca {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 530px;
+  top: 290px;
+  z-index: -1;
+}
+
+.botaoprimeiroandar {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 1070px;
+  top: 612px;
+  z-index: 1;
+}
+
+.botaoprimeiroandar2 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 515px;
+  top: 638px;
+  z-index: -1;
+
+}
+
+/* Personalização dos Botões Lista */
+
+.botaoArea{
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 870px;
+  top: 350px;
+}
+
+#container-apresentacoes-convivencia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4CAF50;
+  z-index: 2;
+  position: absolute;
+  left: 870px;
+  top: 402px;
+}
+
+.botaoSL17{
+  background-color: #4CAF50;
+  color: white;
+  padding: 13px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 850px;
+  top: 542px;
+}
+
+#container-apresentacoes-sala17 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4CAF50;
+  z-index: 2;
+  position: absolute;
+  left: 850px;
+  top: 587px;
+}
+
+.botaoSL16{
+  background-color: #4CAF50;
+  color: white;
+  padding: 13px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 934px;
+  top: 542px;
+}
+
+#container-apresentacoes-sala16 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4CAF50;
+  z-index: 2;
+  position: absolute;
+  left: 850px;
+  top: 587px;
+}
+
+.botaojardins{
+  background-color: #4CAF50;
+  color: white;
+  padding: 13px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 660px;
+  top: 692px;
+}
+
+#container-apresentacoes-jardins {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4CAF50;
+  z-index: 2;
+  position: absolute;
+  left: 660px;
+  top: 743px;
+}
+
+.botaolab{
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 63px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 979px;
+  top: 862px;
+}
+
+#container-apresentacoes-lab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4CAF50;
+  z-index: 2;
+  position: absolute;
+  left: 824px;
+  top: 912px;
+}
+
+.botaobibliotecah {
+  background-color: #4CAF50;
+  color: white;
+  padding: 11px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 630px;
+  top: 383px;
+}
+
+#container-apresentacoes-bbhall {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4CAF50;
+  z-index: 2;
+  position: absolute;
+  left: 630px;
+  top: 430px;
+}
+
+/* Mapa Biblioteca */
+
+.titulomapabb {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: start;
+  margin-bottom: 30px;
+
+}
+
+.titulomapabb::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 2000px;
+  height: 80px;
+  background-color: #c2bda5;
+  z-index: -1;
+}
+
+.textomapabb {
+  font-size: x-large;
+  font-weight: times;
+  position: absolute;
+  text-align: center;
+  margin-bottom: 30px;
+  top: 90px;
+
+}
+
+.textomapabb::before {
+  content: "Abaixo estão os mapas do Térro da Bilioteca e do Primeiro Andar da Biblioteca.";
+  position: absolute;
+  text-align: justify;
+  top: 10px;
+  left: 43px;
+  width: 800px;
+  height: 30px;
+  background-color: #31bfd8;
+  z-index: -1;
+
+}
+
+.titulomapabb1::before {
+  content: "Mapa do Térreo";
+  font-size: x-large;
+  position: absolute;
+  text-align: justify;
+  top: 170px;
+  left: 50px;
+  width: 170px;
+  height: 30px;
+  background-color: #31bfd8;
+  z-index: -1;
+
+}
+
+.mapabb {
+  top: 200px;
+  position: absolute;
+  width: 180px;
+  height: 100px;
+  left: 50px;
+  z-index: -1;
+}
+
+.mapabbP1{
+  top: 1100px;
+  position: absolute;
+  width: 180px;
+  height: 100px;
+  left: 50px;
+  z-index: -1;
+}
+
+.titulomapabb2::before {
+  content: "Mapa do Primeiro Andar da Biblioteca";
+  font-size: x-large;
+  position: absolute;
+  text-align: justify;
+  top: 1000px;
+  left: 50px;
+  width: 380px;
+  height: 30px;
+  background-color: #31bfd8;
+  z-index: -1;
+
+}
+
+/* Personalização dos Botões Lista */
+
+.botaobibliotecat{
+  background-color: #4CAF50;
+  color: white;
+  padding: 13px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 666px;
+  top: 550px;
+}
+
+#container-apresentacoes-bibliotecat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4CAF50;
+  z-index: 2;
+  position: absolute;
+  left: 668px;
+  top: 600px;
+}
+
+.botaobibliotecap1{
+  background-color: #4CAF50;
+  color: white;
+  padding: 13px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 550px;
+  top: 1200px;
+}
+
+#container-apresentacoes-bibliotecap1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4CAF50;
+  z-index: 2;
+  position: absolute;
+  left: 552px;
+  top: 1250px;
+}
+
+/* Mapa do Primeiro Andar */
+.textomapap1 {
+  font-size: x-large;
+  font-weight: times;
+  position: absolute;
+  text-align: center;
+  margin-bottom: 30px;
+  top: 90px;
+}
+
+.textomapap1::before {
+  content: "Mapa do Primeiro Andar.";
+  position: absolute;
+  text-align: justify;
+  top: 10px;
+  left: 43px;
+  width: 260px;
+  height: 30px;
+  background-color: #31bfd8;
+  z-index: -1;
+}
+
+.mapap1 {
+  top: 200px;
+  position: absolute;
+  width: 180px;
+  height: 100px;
+  left: 50px;
+  z-index: -1;
+}
+
+/* Personalização Botões Lista */
+
+.botaosala106 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 13px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 200px;
+  top: 819px;
+}
+
+#container-apresentacoes-sala106 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4CAF50;
+  z-index: 2;
+  position: absolute;
+  left: 203px;
+  top: 870px;
+}
+
+.botaosala107 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 13px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 313px;
+  top: 819px;
+}
+
+#container-apresentacoes-sala107 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4CAF50;
+  z-index: 2;
+  position: absolute;
+  left: 315px;
+  top: 870px;
+}
+
+.botaosala108 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 13px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 425px;
+  top: 819px;
+}
+
+#container-apresentacoes-sala108 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4CAF50;
+  z-index: 2;
+  position: absolute;
+  left: 428px;
+  top: 870px;
+}
+
+.botaobibliotecam {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 100px;
+  top: 270px;
+}
+
+#container-apresentacoes-bibliotecam {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4CAF50;
+  z-index: 2;
+  position: absolute;
+  left: 285px;
+  top: 250px;
+}
